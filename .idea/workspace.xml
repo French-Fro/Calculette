@@ -12,39 +12,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Addition.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state relative-caret-position="34">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
-=======
-            <state relative-caret-position="102">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
->>>>>>> Stashed changes
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Multiplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="153">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Division.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Multiplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <folding>
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,13 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MultiplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -66,34 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DivisionTests.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state relative-caret-position="68">
-              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-=======
-            <state relative-caret-position="34">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< Updated upstream
-=======
-        <entry file="file://$PROJECT_DIR$/src/test/java/DivisionTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
->>>>>>> Stashed changes
-        <entry file="file://$PROJECT_DIR$/src/test/java/AdditionTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
->>>>>>> Stashed changes
+            <state relative-caret-position="119">
+              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -101,12 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AdditionTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -137,65 +106,56 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Calculette" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Calculette" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Calculette" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Calculette" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Calculette" type="b2602c69:ProjectViewProjectNode" />
-<<<<<<< Updated upstream
               <item name="Calculette" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-=======
-              <item name="Calculette" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Calculette" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Calculette" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-<<<<<<< Updated upstream
+            </path>
+            <path>
+              <item name="Calculette" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Calculette" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="Calculette" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Calculette" type="462c0819:PsiDirectoryNode" />
->>>>>>> Stashed changes
+              <item name="Calculette" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-=======
-              <item name="main" type="462c0819:PsiDirectoryNode" />
->>>>>>> Stashed changes
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Calculette" type="b2602c69:ProjectViewProjectNode" />
-<<<<<<< Updated upstream
               <item name="Calculette" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-=======
-              <item name="Calculette" type="462c0819:PsiDirectoryNode" />
->>>>>>> Stashed changes
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Calculette" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Calculette" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< Updated upstream
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551862980881" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551863088102" />
->>>>>>> Stashed changes
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551864687463" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -210,7 +170,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SoustractionTests">
+    <configuration name="AdditionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculette.Calculette.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AdditionTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DivisionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculette.Calculette.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -220,8 +189,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SoustractionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculette.Calculette.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SoustractionTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SoustractionTests" />
+        <item itemvalue="JUnit.AdditionTests" />
         <item itemvalue="JUnit.DivisionTests" />
       </list>
     </recent_temporary>
@@ -252,34 +232,35 @@
     <history-entry file="DivisionTests_should_divide - 2019.03.06 at 10h 01m 22s.xml">
       <configuration name="DivisionTests.should_divide" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DivisionTests - 2019.03.06 at 10h 30m 59s.xml">
+      <configuration name="DivisionTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdditionTests - 2019.03.06 at 10h 31m 06s.xml">
+      <configuration name="AdditionTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdditionTests - 2019.03.06 at 10h 31m 23s.xml">
+      <configuration name="AdditionTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SoustractionTests - 2019.03.06 at 10h 31m 28s.xml">
+      <configuration name="SoustractionTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< Updated upstream
-    <option name="totallyTimeSpent" value="279000" />
-=======
-    <option name="totallyTimeSpent" value="1527000" />
->>>>>>> Stashed changes
+    <option name="totallyTimeSpent" value="1582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.254251" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Build" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.4986577" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-<<<<<<< Updated upstream
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
-=======
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.3297587" />
->>>>>>> Stashed changes
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -287,9 +268,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49798658" weight="0.28016084" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49798658" visible="true" weight="0.28016084" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.3297587" />
-      <window_info anchor="right" id="Gradle" weight="0.3295302" />
+      <window_info anchor="bottom" id="Build" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4986577" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -299,6 +281,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Gradle" order="9" weight="0.3295302" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,23 +304,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/src/test/java/DivisionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AdditionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
-=======
     <entry file="file://$PROJECT_DIR$/src/main/java/Soustraction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -350,8 +316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+        <state relative-caret-position="178">
+          <caret line="318" column="61" lean-forward="true" selection-start-line="318" selection-start-column="61" selection-end-line="318" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -364,25 +330,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AdditionTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
->>>>>>> Stashed changes
+        <state relative-caret-position="170">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MultiplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
-=======
-        <state relative-caret-position="51">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="119">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -395,9 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DivisionTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
->>>>>>> Stashed changes
+        <state relative-caret-position="119">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
         </state>
       </provider>
     </entry>
