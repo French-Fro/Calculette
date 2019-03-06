@@ -1,9 +1,11 @@
 
-import junit.framework.TestCase;
 import org.junit.Test;
 
-public class MultiplicationTests extends TestCase{
-    public void testMultiplication() throws Exception {
+import static org.junit.Assert.assertEquals;
+
+public class MultiplicationTests{
+    @Test
+    public void testMultiplication()  {
         assertEquals(10,Multiplication.Multiplication(2,5));
     }
 }

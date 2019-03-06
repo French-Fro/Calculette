@@ -1,10 +1,12 @@
 
-import junit.framework.TestCase;
 import org.junit.Test;
 
-public class AdditionTests extends TestCase {
+import static org.junit.Assert.assertEquals;
 
-    public void testAddition() throws Exception {
+public class AdditionTests {
+
+    @Test
+    public void testAddition() {
         assertEquals(2,Addition.Addition(1,1));
     }
 }
