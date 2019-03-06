@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< Updated upstream
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculette.Calculette.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculette.Calculette.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculette.Calculette.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculette.Calculette.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculette.Calculette.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculette.Calculette.test.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/Calculette.iml" filepath="$PROJECT_DIR$/.idea/Calculette.iml" />
+>>>>>>> Stashed changes
     </modules>
   </component>
 </project>
