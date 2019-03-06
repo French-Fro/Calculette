@@ -1,6 +1,10 @@
 public class Multiplication {
-    public static int Multiplication(Integer a , Integer b){
-        Integer res = a*b;
-        return res;
+    private Integer a,b;
+    public Multiplication(Integer a, Integer b){
+        this.a=a;
+        this.b=b;
+    }
+    public Integer Multiplication(){
+        return a*b;
     }
 }
