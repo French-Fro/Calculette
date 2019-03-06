@@ -12,6 +12,6 @@ public class AdditionTests {
         Integer a = 2;
         Integer b = 2;
         Addition plus = new Addition(a,b);
-        assertThat(plus.Addition(),equalTo(a-b));
+        assertThat(plus.Addition(),equalTo(a+b));
     }
 }
