@@ -88,6 +88,12 @@ public class MultiplicationTests{
         multi.setB(Integer.MAX_VALUE);
         assertThat(multi.Multiplication(),equalTo(multi.getA()*multi.getB()));
     }
+    @Test
+    public void testMultiplicationNegativBoth()  {
+        multi.setA(-1);
+        multi.setB(Integer.MIN_VALUE);
+        assertThat(multi.Multiplication(),equalTo(multi.getA()*multi.getB()));
+    }
     
 
     @Test
