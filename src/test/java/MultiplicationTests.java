@@ -1,6 +1,8 @@
 
 import org.junit.Test;
 
+import java.lang.reflect.Method;
+
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
@@ -56,5 +58,22 @@ public class MultiplicationTests{
         multi.setB(-1);
         assertThat(multi.Multiplication(),equalTo(multi.getA()*multi.getB()));
     }
+    @Test
+    public void testMultiplicationIntMaxBoth()  {
+        multi.setA(Integer.MAX_VALUE);
+        multi.setB(Integer.MAX_VALUE);
+        assertThat(multi.Multiplication(),equalTo(multi.getA()*multi.getB()));
+    }
     
+
+    @Test
+    public void testIsExistMethod() {
+        Method[] methodses = multi.getClass().getMethods();
+        String nameMethod = null;
+        for (Method method : methodses) {
+            if (method.getName() == "Multiplication")
+                nameMethod = method.getName();
+        }
+        assertEquals("Multiplication", nameMethod);
+    }
 }
