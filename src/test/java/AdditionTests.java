@@ -74,6 +74,13 @@ public class AdditionTests {
         assertThat(plus.Addition(),equalTo(plus.getA()+plus.getB()));
     }
 
+    @Test
+    public void testMaxIntAMaxIntB(){
+        plus.setA(Integer.MAX_VALUE);
+        plus.setB(Integer.MAX_VALUE);
+        assertThat(plus.Addition(),equalTo(plus.getA()+plus.getB()));
+    }
+
     @Test(expected = AssertionError.class)
     public void testAdditionType(){
         Addition plus = new Addition();
