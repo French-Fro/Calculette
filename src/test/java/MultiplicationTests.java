@@ -38,5 +38,11 @@ public class MultiplicationTests{
         multi.setB(0);
         assertThat(multi.Multiplication(),equalTo(multi.getA()*multi.getB()));
     }
+    @Test
+    public void testMultiplicationA0NegativB()  {
+        multi.setA(0);
+        multi.setB(-1);
+        assertThat(multi.Multiplication(),equalTo(multi.getA()*multi.getB()));
+    }
     
 }
