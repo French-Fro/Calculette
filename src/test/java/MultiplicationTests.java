@@ -64,7 +64,12 @@ public class MultiplicationTests{
         multi.setB(Integer.MAX_VALUE);
         assertThat(multi.Multiplication(),equalTo(multi.getA()*multi.getB()));
     }
-    
+    @Test
+    public void testMultiplicationIntMinBoth()  {
+        multi.setA(Integer.MIN_VALUE);
+        multi.setB(Integer.MIN_VALUE);
+        assertThat(multi.Multiplication(),equalTo(multi.getA()*multi.getB()));
+    }
 
     @Test
     public void testIsExistMethod() {
