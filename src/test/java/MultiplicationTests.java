@@ -95,7 +95,7 @@ public class MultiplicationTests{
         assertThat(multi.Multiplication(),equalTo(multi.getA()*multi.getB()));
     }
 
-    @Test
+    @Test(expected = TooBigValueException.class)
     public void testExceptionMultiplication(){
         multi.setA(Integer.MAX_VALUE);
         multi.setB(2);
