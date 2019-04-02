@@ -103,6 +103,13 @@ public class AdditionTests {
     }
 
     @Test
+    public void testMinIntANegativB(){
+        plus.setA(Integer.MIN_VALUE);
+        plus.setB(-1);
+        assertThat(plus.Addition(),equalTo(plus.getA()+plus.getB()));
+    }
+
+    @Test
     public void testMinIntAB0(){
         plus.setA(Integer.MIN_VALUE);
         plus.setB(0);
