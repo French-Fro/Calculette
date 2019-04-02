@@ -88,6 +88,20 @@ public class AdditionTests {
         assertThat(plus.Addition(),equalTo(plus.getA()+plus.getB()));
     }
 
+    @Test
+    public void testANegatifMaxIntB(){
+        plus.setA(-1);
+        plus.setB(Integer.MAX_VALUE);
+        assertThat(plus.Addition(),equalTo(plus.getA()+plus.getB()));
+    }
+
+    @Test
+    public void testMinIntAMinIntB(){
+        plus.setA(Integer.MIN_VALUE);
+        plus.setB(Integer.MIN_VALUE);
+        assertThat(plus.Addition(),equalTo(plus.getA()+plus.getB()));
+    }
+
     @Test(expected = AssertionError.class)
     public void testAdditionType(){
         Addition plus = new Addition();
