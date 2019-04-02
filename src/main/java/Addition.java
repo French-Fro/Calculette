@@ -1,13 +1,11 @@
 public class Addition {
     private Integer a,b;
 
-    public Addition(Integer a,Integer b){
-       this.a = a;
-       this.b = b;
+    public Addition(){
     }
 
     public Integer Addition(){
-        return a*b;
+        return a+b;
     }
 
     public Integer getA() {

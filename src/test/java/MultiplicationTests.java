@@ -8,9 +8,9 @@ import static org.junit.Assert.assertThat;
 public class MultiplicationTests{
     @Test
     public void testMultiplication()  {
-        Integer a = 5;
-        Integer b = 11;
-        Multiplication multi = new Multiplication(a,b);
-        assertThat(multi.Multiplication(),equalTo(a*b));
+        Multiplication multi = new Multiplication();
+        multi.setA(2);
+        multi.setB(3);
+        assertThat(multi.Multiplication(),equalTo(multi.getA()*multi.getB()));
     }
 }
