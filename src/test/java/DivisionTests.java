@@ -13,4 +13,10 @@ public class DivisionTests {
 
         assertThat(division.divide(), equalTo(first/second));
     }
+
+    @Test()
+    public void should_throw_an_exception_when_divide_by_zero(){
+        Division division = new Division(1,0);
+        division.divide();
+    }
 }
