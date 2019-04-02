@@ -95,6 +95,13 @@ public class MultiplicationTests{
         assertThat(multi.Multiplication(),equalTo(multi.getA()*multi.getB()));
     }
 
+    @Test
+    public void testExceptionMultiplication(){
+        multi.setA(Integer.MAX_VALUE);
+        multi.setB(2);
+        assertThat(multi.Multiplication(),equalTo(multi.getA()));
+    }
+
 
     @Test
     public void testIsExistMethod() {
