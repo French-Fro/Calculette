@@ -12,5 +12,7 @@ public class MultiplicationTests{
         multi.setA(2);
         multi.setB(3);
         assertThat(multi.Multiplication(),equalTo(multi.getA()*multi.getB()));
+
     }
+
 }
