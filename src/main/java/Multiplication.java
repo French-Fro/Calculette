@@ -3,11 +3,11 @@ public class Multiplication {
 
     public Multiplication() {
     }
-/*
+
     public Integer Multiplication() {
         return a*b;
     }
-*/
+
     public Integer getA() {
         return a;
     }

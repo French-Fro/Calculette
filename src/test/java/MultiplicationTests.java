@@ -89,12 +89,12 @@ public class MultiplicationTests{
         assertThat(multi.Multiplication(),equalTo(multi.getA()*multi.getB()));
     }
     @Test
-    public void testMultiplicationNegativBoth()  {
+    public void testMultiplicationNegativAIntMinB()  {
         multi.setA(-1);
         multi.setB(Integer.MIN_VALUE);
         assertThat(multi.Multiplication(),equalTo(multi.getA()*multi.getB()));
     }
-    
+
 
     @Test
     public void testIsExistMethod() {
