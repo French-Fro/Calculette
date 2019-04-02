@@ -47,6 +47,13 @@ public class AdditionTests {
         assertThat(plus.Addition(),equalTo(plus.getA()+plus.getB()));
     }
 
+    @Test
+    public void testAdditionBNegatifA0(){
+        plus.setA(0);
+        plus.setB(-1);
+        assertThat(plus.Addition(),equalTo(plus.getA()+plus.getB()));
+    }
+
     @Test(expected = AssertionError.class)
     public void testAdditionType(){
         Addition plus = new Addition();
