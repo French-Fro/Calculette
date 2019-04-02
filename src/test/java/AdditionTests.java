@@ -1,4 +1,5 @@
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.lang.reflect.Method;
@@ -8,16 +9,14 @@ import static org.junit.Assert.*;
 
 public class AdditionTests {
 
+   private Addition plus = new Addition();
+
     @Test
     public void testAddition5() {
-        Addition plus = new Addition();
         plus.setA(2);
         plus.setB(3);
         assertThat(plus.Addition(),equalTo(plus.getA()+plus.getB()));
         /*
-        plus.setA(0);
-        System.out.println(plus.getA());
-        assertThat(plus.Addition(),equalTo(plus.getA()+plus.getB()));
         plus.setB(-1);
         assertThat(plus.Addition(),equalTo(plus.getA()+plus.getB()));
         plus.setA(-1);
@@ -39,6 +38,13 @@ public class AdditionTests {
         plus.setB(Integer.MIN_VALUE);
         assertThat(plus.Addition(),equalTo(plus.getA()+plus.getB()));
         */
+    }
+
+    @Test
+    public void testAdditionA0(){
+        plus.setA(0);
+        plus.setB(2);
+        assertThat(plus.Addition(),equalTo(plus.getA()+plus.getB()));
     }
 
     @Test(expected = AssertionError.class)
