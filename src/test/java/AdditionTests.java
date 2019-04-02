@@ -48,7 +48,7 @@ public class AdditionTests {
         plus.setB(2);
         assertThat(plus.Addition(),equalTo(plus.getA()+"a"));
     }
-    /*
+
     @Test
     public void testIsExistMethod(){
         Addition plus = new Addition();
@@ -60,6 +60,6 @@ public class AdditionTests {
         }
         assertEquals("Addition", nameMethod);
     }
-    */
+
 }
 
