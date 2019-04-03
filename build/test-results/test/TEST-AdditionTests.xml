@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AdditionTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2019-04-03T20:58:36" hostname="LAPTOP-2RBK8CR1" time="0.007">
+  <properties/>
+  <testcase name="testMinIntAMinIntB" classname="AdditionTests" time="0.002"/>
+  <testcase name="testANegatifMaxIntB" classname="AdditionTests" time="0.0"/>
+  <testcase name="testANegatifBNegatif" classname="AdditionTests" time="0.0"/>
+  <testcase name="testMinIntANegativB" classname="AdditionTests" time="0.0"/>
+  <testcase name="testAdditionType" classname="AdditionTests" time="0.002"/>
+  <testcase name="testMinIntAB0" classname="AdditionTests" time="0.0"/>
+  <testcase name="testAdditionBNegatifA0" classname="AdditionTests" time="0.0"/>
+  <testcase name="testAdditionANegatifB0" classname="AdditionTests" time="0.0"/>
+  <testcase name="testMaxIntB0" classname="AdditionTests" time="0.0"/>
+  <testcase name="testAddition5" classname="AdditionTests" time="0.0"/>
+  <testcase name="testIsExistMethod" classname="AdditionTests" time="0.0"/>
+  <testcase name="testAdditionA0" classname="AdditionTests" time="0.0"/>
+  <testcase name="testAdditionB0" classname="AdditionTests" time="0.0"/>
+  <testcase name="testMaxIntAMaxIntB" classname="AdditionTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

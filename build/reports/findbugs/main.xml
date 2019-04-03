@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1554324202580" analysisTimestamp="1554324202605" release="">
+  <Project projectName="">
+    <Jar>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\build\classes\java\main\Addition.class</Jar>
+    <Jar>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\build\classes\java\main\Division.class</Jar>
+    <Jar>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\build\classes\java\main\Multiplication.class</Jar>
+    <Jar>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\build\classes\java\main\Soustraction.class</Jar>
+    <Jar>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\build\classes\java\main\TooBigValueException.class</Jar>
+    <SrcDir>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\src\main\java\Addition.java</SrcDir>
+    <SrcDir>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\src\main\java\Division.java</SrcDir>
+    <SrcDir>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\src\main\java\Multiplication.java</SrcDir>
+    <SrcDir>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\src\main\java\Soustraction.java</SrcDir>
+    <SrcDir>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\src\main\java\TooBigValueException.java</SrcDir>
+  </Project>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="Addition">
+      <SourceLine classname="Addition" start="4" end="25" sourcefile="Addition.java" sourcepath="Addition.java"/>
+    </Class>
+    <Method classname="Addition" name="Addition" signature="()Ljava/lang/Integer;" isStatic="false">
+      <SourceLine classname="Addition" start="8" end="8" startBytecode="0" endBytecode="60" sourcefile="Addition.java" sourcepath="Addition.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="Multiplication">
+      <SourceLine classname="Multiplication" start="4" end="30" sourcefile="Multiplication.java" sourcepath="Multiplication.java"/>
+    </Class>
+    <Method classname="Multiplication" name="Multiplication" signature="()Ljava/lang/Integer;" isStatic="false">
+      <SourceLine classname="Multiplication" start="9" end="12" startBytecode="0" endBytecode="112" sourcefile="Multiplication.java" sourcepath="Multiplication.java"/>
+    </Method>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 3 Apr 2019 22:43:22 +0200" total_classes="5" referenced_classes="39" total_bugs="2" total_size="63" num_packages="1" java_version="1.8.0_201" vm_version="25.201-b09" cpu_seconds="4.03" clock_seconds="0.90" peak_mbytes="108.12" alloc_mbytes="3620.00" gc_seconds="0.01" priority_2="2">
+    <PackageStats package="" total_bugs="2" total_types="5" total_size="63" priority_2="2">
+      <ClassStats class="Addition" sourceFile="Addition.java" interface="false" size="18" bugs="1" priority_2="1"/>
+      <ClassStats class="Division" sourceFile="Division.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="Multiplication" sourceFile="Multiplication.java" interface="false" size="21" bugs="1" priority_2="1"/>
+      <ClassStats class="Soustraction" sourceFile="Soustraction.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="TooBigValueException" sourceFile="TooBigValueException.java" interface="false" size="4" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="154" invocations="468" avgMicrosecondsPerInvocation="331" maxMicrosecondsPerInvocation="14686" standardDeviationMircosecondsPerInvocation="961"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="53" invocations="39" avgMicrosecondsPerInvocation="1362" maxMicrosecondsPerInvocation="9366" standardDeviationMircosecondsPerInvocation="2243"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="40" invocations="142" avgMicrosecondsPerInvocation="285" maxMicrosecondsPerInvocation="2905" standardDeviationMircosecondsPerInvocation="427"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="39" invocations="39" avgMicrosecondsPerInvocation="1015" maxMicrosecondsPerInvocation="10182" standardDeviationMircosecondsPerInvocation="1884"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="28" invocations="17" avgMicrosecondsPerInvocation="1693" maxMicrosecondsPerInvocation="27546" standardDeviationMircosecondsPerInvocation="6463"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="27" invocations="471" avgMicrosecondsPerInvocation="57" maxMicrosecondsPerInvocation="661" standardDeviationMircosecondsPerInvocation="63"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="26" invocations="63" avgMicrosecondsPerInvocation="426" maxMicrosecondsPerInvocation="13602" standardDeviationMircosecondsPerInvocation="1733"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="24" invocations="428" avgMicrosecondsPerInvocation="58" maxMicrosecondsPerInvocation="1093" standardDeviationMircosecondsPerInvocation="108"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="19" invocations="39" avgMicrosecondsPerInvocation="504" maxMicrosecondsPerInvocation="3103" standardDeviationMircosecondsPerInvocation="795"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="17" invocations="39" avgMicrosecondsPerInvocation="451" maxMicrosecondsPerInvocation="5971" standardDeviationMircosecondsPerInvocation="1128"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="15" invocations="39" avgMicrosecondsPerInvocation="405" maxMicrosecondsPerInvocation="5629" standardDeviationMircosecondsPerInvocation="943"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="13" invocations="39" avgMicrosecondsPerInvocation="343" maxMicrosecondsPerInvocation="2160" standardDeviationMircosecondsPerInvocation="518"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="12" invocations="17" avgMicrosecondsPerInvocation="735" maxMicrosecondsPerInvocation="9413" standardDeviationMircosecondsPerInvocation="2178"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="11" invocations="17" avgMicrosecondsPerInvocation="661" maxMicrosecondsPerInvocation="7853" standardDeviationMircosecondsPerInvocation="1815"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

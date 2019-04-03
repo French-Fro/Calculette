@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'de.aaschmid.cpd' version '1.2'
 }
 
 apply plugin: 'java'
@@ -8,6 +9,7 @@ apply plugin : 'checkstyle'
 apply plugin: 'findbugs'
 apply plugin : 'pmd'
 apply plugin: 'jacoco'
+apply plugin: 'cpd'
 
 def classesJava = "${project.buildDir}/classes/main"
 def classesBuildJava = "${project.buildDir}/classes/java/main"
@@ -22,6 +24,13 @@ checkstyle{
 pmd{toolVersion = "6.13.0"}
 jacoco {
     toolVersion = "0.8.3"
+}
+cpd{toolVersion = "5.4.2"}
+cpdCheck{
+    reports{
+        text.enabled = true
+        xml.enabled = false
+    }
 }
 
 task checkstyleMain (type: Checkstyle, overwrite: true) {
