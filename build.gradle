@@ -5,8 +5,13 @@ plugins {
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin : 'checkstyle'
+apply plugin: 'findbugs'
+apply plugin : 'pmd'
+apply plugin: 'jacoco'
 
 def classesJava = "${project.buildDir}/classes/main"
+def classesBuildJava = "${project.buildDir}/classes/java/main"
+def classesBuildJavaTest = "${project.buildDir}/classes/java/test"
 def javasRoot = "${rootProject.rootDir}/src/main/java"
 def testClassesJava = "$project.buildDir}/classes/test"
 def testJavaRoot = "${rootProject.rootDir}/src/test/java"
@@ -14,6 +19,11 @@ def testJavaRoot = "${rootProject.rootDir}/src/test/java"
 checkstyle{
     toolVersion = "8.18"
 }
+pmd{toolVersion = "6.13.0"}
+jacoco {
+    toolVersion = "0.8.3"
+}
+
 task checkstyleMain (type: Checkstyle, overwrite: true) {
     ignoreFailures = true
     showViolations = false
@@ -28,7 +38,6 @@ task checkstyleMain (type: Checkstyle, overwrite: true) {
     classpath = fileTree(classesJava)
     configFile = file("${rootProject.rootDir}/checkstyle_rules.xml")
 }
-
 task checkstyleTest (type: Checkstyle, overwrite: true){
     ignoreFailures = true
     showViolations = false
@@ -42,6 +51,58 @@ task checkstyleTest (type: Checkstyle, overwrite: true){
     }
     classpath = fileTree("$project.buildDir/classes/test/")
     configFile = file("${rootProject.rootDir}/checkstyle_rules.xml")
+}
+task findbugsMain (type: FindBugs, overwrite: true) {
+    ignoreFailures = true
+    description 'Run findbugs'
+    classes = fileTree(classesBuildJava)
+    source = fileTree(javasRoot)
+    classpath = files(classesJava)
+    effort = 'max'
+    excludeFilter = file("./findbugsExclude.xml")
+    reports {
+        xml.enabled = true
+        html.enabled = false
+    }
+}
+task findbugsTest (type: FindBugs, overwrite: true) {
+    ignoreFailures = true
+    description 'Run findbugs'
+    classes = fileTree(classesBuildJavaTest)
+    source = fileTree(javasRoot)
+    classpath = files(classesJava)
+    effort = 'max'
+    excludeFilter = file("./findbugsExclude.xml")
+    reports {
+        xml.enabled = true
+        html.enabled = false
+    }
+}
+task pmdMain(type: Pmd, overwrite: true) {
+    ignoreFailures = true
+    description 'Runs PMD inspection against Android sourcesets.'
+    group = 'Code Quality'
+    ruleSetFiles = files("${rootProject.rootDir}/pmd_rules.xml")
+    source = fileTree(javasRoot)
+    include '**/*.java'
+    exclude '**/gen/**'
+    reports {
+        xml.enabled = true
+        html.enabled = false
+    }
+}
+task pmdTest(type: Pmd, overwrite: true) {
+    ignoreFailures = true
+    description 'Runs PMD inspection against Android sourcesets.'
+    group = 'Code Quality'
+    ruleSetFiles = files("${rootProject.rootDir}/pmd_rules.xml")
+    source = fileTree(testJavaRoot)
+    include '**/*.java'
+    exclude '**/gen/**'
+    reports {
+        xml.enabled = true
+        html.enabled = false
+    }
 }
 
 group 'Calculette'
