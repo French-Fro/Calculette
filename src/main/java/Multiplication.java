@@ -5,7 +5,12 @@ public class Multiplication {
     }
 
     public Integer Multiplication() {
-        return a*b;
+        try{
+            return this.getA()*this.getB();
+        }catch (TooBigValueException e){
+            e.printStackTrace();
+            return -1;
+        }
     }
 
     public Integer getA() {
