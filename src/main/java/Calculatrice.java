@@ -9,7 +9,6 @@ public class Calculatrice {
     private JPanel panel1;
     private JTextField textField1;
     private JTextField textField2;
-    private JTextField textField3;
     private JButton button2;
     private JButton button3;
     private JTextField textField4;
@@ -25,6 +24,13 @@ public class Calculatrice {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
+            }
+        });
+        button3.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                
             }
         });
     }
