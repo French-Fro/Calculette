@@ -17,14 +17,6 @@
     <property name="eachLine" value="true"/>
   </module>
 
-  <module name = "AnnotationLocation">
-    <property name = "allowSamelineMultipleAnnotations" value = "true"/>
-  </module>
-
-  <module name = "AvoidNestedBlocks">
-    <property name = "allowInSwitchCase"/>
-  </module>
-
   <module name="TreeWalker">
     <module name="OuterTypeFilename"/>
     <module name="IllegalTokenText">
@@ -62,8 +54,7 @@
     <module name="RightCurly">
       <property name="id" value="RightCurlyAlone"/>
       <property name="option" value="alone"/>
-      <property name="tokens"
-                value="CLASS_DEF, METHOD_DEF, CTOR_DEF, LITERAL_FOR, LITERAL_WHILE, STATIC_INIT,INSTANCE_INIT"/>
+      <property name="tokens" value="CLASS_DEF, METHOD_DEF, CTOR_DEF, LITERAL_FOR, LITERAL_WHILE, STATIC_INIT,INSTANCE_INIT"/>
     </module>
     <module name="WhitespaceAround">
       <property name="allowEmptyConstructors" value="true"/>
