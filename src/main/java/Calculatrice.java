@@ -44,4 +44,13 @@ public class Calculatrice {
         frame.pack();
         frame.setVisible(true);
     }
+
+    public Integer Addition(int a, int b) {
+        try {
+            return a + b;
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
+            return -1;
+        }
+    }
 }

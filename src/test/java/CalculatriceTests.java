@@ -8,7 +8,6 @@ public class CalculatriceTests {
     @Test
     public void testAdditionOnTextFields(){
         Calculatrice c = new Calculatrice();
-        // c.Addition(a,b);
-        assertThat(c.Addition(a,b), equalTo(1 - 0));
+        assertThat(c.Addition(1,3), equalTo(1 + 3));
     }
 }
