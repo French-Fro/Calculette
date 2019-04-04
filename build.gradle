@@ -12,8 +12,6 @@ apply plugin : 'pmd'
 apply plugin: 'jacoco'
 apply plugin: 'cpd'
 
-apply plugin : 'pmd'
-
 
 def classesJava = "${project.buildDir}/classes/main"
 def classesBuildJava = "${project.buildDir}/classes/java/main"
@@ -31,6 +29,7 @@ jacoco {
 }
 cpd{toolVersion = "5.4.2"}
 cpdCheck{
+    minimumTokenCount = 150
     reports{
         text.enabled = true
         xml.enabled = false
