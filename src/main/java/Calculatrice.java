@@ -1,6 +1,7 @@
+import net.miginfocom.swing.MigLayout;
+
 import java.awt.event.*;
 import javax.swing.*;
-import net.miginfocom.swing.*;
 /*
  * Created by JFormDesigner on Thu Apr 04 13:05:14 CEST 2019
  */
