@@ -30,17 +30,19 @@ public class Calculatrice {
             @Override
             public void mouseClicked(MouseEvent e) {
 <span class="nc" id="L32">                super.mouseClicked(e);</span>
-                
-<span class="nc" id="L34">            }</span>
+<span class="nc" id="L33">                double displayResult =0;</span>
+<span class="nc" id="L34">                displayResult = Double.parseDouble(textField1.getText())+Double.parseDouble(textField2.getText());</span>
+<span class="nc" id="L35">                textField4.setText(Double.toString(displayResult));</span>
+<span class="nc" id="L36">            }</span>
         });
-<span class="nc" id="L36">    }</span>
+<span class="nc" id="L38">    }</span>
 
     public static void main(String[] args) {
-<span class="nc" id="L39">        JFrame frame = new JFrame(&quot;Calculatrice&quot;);</span>
-<span class="nc" id="L40">        frame.setContentPane(new Calculatrice().panel1);</span>
-<span class="nc" id="L41">        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);</span>
-<span class="nc" id="L42">        frame.pack();</span>
-<span class="nc" id="L43">        frame.setVisible(true);</span>
-<span class="nc" id="L44">    }</span>
+<span class="nc" id="L41">        JFrame frame = new JFrame(&quot;Calculatrice&quot;);</span>
+<span class="nc" id="L42">        frame.setContentPane(new Calculatrice().panel1);</span>
+<span class="nc" id="L43">        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);</span>
+<span class="nc" id="L44">        frame.pack();</span>
+<span class="nc" id="L45">        frame.setVisible(true);</span>
+<span class="nc" id="L46">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span></div></body></html>

@@ -30,7 +30,9 @@ public class Calculatrice {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
-                
+                double displayResult =0;
+                displayResult = Double.parseDouble(textField1.getText())+Double.parseDouble(textField2.getText());
+                textField4.setText(Double.toString(displayResult));
             }
         });
     }
