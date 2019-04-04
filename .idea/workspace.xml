@@ -4,13 +4,16 @@
     <list default="true" id="c66d750d-c62b-43a5-af6b-05c4e402033f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Calculette.Calculette.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculette.Calculette.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Calculette.Calculette.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculette.Calculette.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Addition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Multiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Multiplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/AdditionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/AdditionTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/MultiplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/MultiplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculatrice.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculatrice.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculatrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculatrice.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -49,8 +52,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MultiplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="2040">
+              <caret line="120" column="52" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DivisionTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="51">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -67,38 +73,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AdditionTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="-221">
+              <caret line="101" column="39" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+            <state relative-caret-position="194">
+              <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Calculatrice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="34" column="70" lean-forward="true" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
               <folding>
-                <element signature="e#530#558#0" />
-                <element signature="e#530#558#0" />
-                <element signature="e#594#623#0" />
-                <element signature="e#594#623#0" />
-                <element signature="e#681#1079#0" />
-                <element signature="e#891#970#0" />
-                <element signature="e#891#970#0" />
-                <element signature="e#1135#1555#0" />
-                <element signature="e#1345#1424#0" />
-                <element signature="e#1345#1424#0" />
-                <element signature="e#1608#1922#0" />
-                <element signature="e#1857#1920#0" />
-                <element signature="e#2335#2679#0" />
-                <element signature="e#2721#3068#0" />
+                <element signature="e#491#649#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Calculatrice.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,6 +125,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Multiplication.java" />
         <option value="$PROJECT_DIR$/src/test/java/AdditionTests.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/Calculatrice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Calculatrice.form" />
       </list>
     </option>
   </component>
@@ -125,6 +142,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,6 +173,14 @@
               <item name="Calculette" type="b2602c69:ProjectViewProjectNode" />
               <item name="Calculette" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculatrice" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="Calculette" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Calculette" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -167,14 +194,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554325101148" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554381973846" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -189,7 +214,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Calculette.Calculette.test">
+  <component name="RunManager" selected="Application.Calculatrice">
+    <configuration name="Calculatrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calculatrice" />
+      <module name="Calculette.Calculette.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdditionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculette.Calculette.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -225,8 +257,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.AdditionTests" />
+      <item itemvalue="JUnit.DivisionTests" />
+      <item itemvalue="JUnit.SoustractionTests" />
+      <item itemvalue="JUnit.All in Calculette.Calculette.test" />
+      <item itemvalue="Application.Calculatrice" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculatrice" />
         <item itemvalue="JUnit.All in Calculette.Calculette.test" />
         <item itemvalue="JUnit.SoustractionTests" />
         <item itemvalue="JUnit.AdditionTests" />
@@ -281,13 +321,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3536000" />
+    <option name="totallyTimeSpent" value="4702000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1260" height="640" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25833333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09554656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,7 +336,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49833333" weight="0.32874015" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49635628" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,9 +345,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4975" weight="0.27952754" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50166667" side_tool="true" visible="true" weight="0.32874015" />
-      <window_info anchor="bottom" id="Build" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4986577" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50364375" side_tool="true" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Build" order="12" sideWeight="0.49959514" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49716598" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -373,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DivisionTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -394,40 +434,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AdditionTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="-221">
+          <caret line="101" column="39" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MultiplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+        <state relative-caret-position="2040">
+          <caret line="120" column="52" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
           <folding>
-            <element signature="e#530#558#0" />
-            <element signature="e#530#558#0" />
-            <element signature="e#594#623#0" />
-            <element signature="e#594#623#0" />
-            <element signature="e#681#1079#0" />
-            <element signature="e#891#970#0" />
-            <element signature="e#891#970#0" />
-            <element signature="e#1135#1555#0" />
-            <element signature="e#1345#1424#0" />
-            <element signature="e#1345#1424#0" />
-            <element signature="e#1608#1922#0" />
-            <element signature="e#1857#1920#0" />
-            <element signature="e#2335#2679#0" />
-            <element signature="e#2721#3068#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CalculatriceForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CalculatriceForm.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Calculatrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="34" column="70" lean-forward="true" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
+          <folding>
+            <element signature="e#491#649#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Calculatrice.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
 </project>

@@ -10,6 +10,9 @@ public class Calculatrice {
     private JTextField textField1;
     private JTextField textField2;
     private JTextField textField3;
+    private JButton button2;
+    private JButton button3;
+    private JTextField textField4;
 
     public Calculatrice() {
         button1.addActionListener(new ActionListener() {
@@ -32,9 +35,5 @@ public class Calculatrice {
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
-    }
-
-    private void createUIComponents() {
-        // TODO: place custom component creation code here
     }
 }
