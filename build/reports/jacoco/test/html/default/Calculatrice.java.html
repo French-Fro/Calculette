@@ -9,32 +9,38 @@ public class Calculatrice {
     private JPanel panel1;
     private JTextField textField1;
     private JTextField textField2;
-    private JTextField textField3;
     private JButton button2;
     private JButton button3;
     private JTextField textField4;
 
-<span class="nc" id="L17">    public Calculatrice() {</span>
-<span class="nc" id="L18">        button1.addActionListener(new ActionListener() {</span>
+<span class="nc" id="L16">    public Calculatrice() {</span>
+<span class="nc" id="L17">        button1.addActionListener(new ActionListener() {</span>
             @Override
             public void actionPerformed(ActionEvent e) {
 
-<span class="nc" id="L22">            }</span>
+<span class="nc" id="L21">            }</span>
         });
-<span class="nc" id="L24">        button1.addMouseListener(new MouseAdapter() {</span>
+<span class="nc" id="L23">        button1.addMouseListener(new MouseAdapter() {</span>
             @Override
             public void mouseClicked(MouseEvent e) {
-<span class="nc" id="L27">                super.mouseClicked(e);</span>
-<span class="nc" id="L28">            }</span>
+<span class="nc" id="L26">                super.mouseClicked(e);</span>
+<span class="nc" id="L27">            }</span>
         });
-<span class="nc" id="L30">    }</span>
+<span class="nc" id="L29">        button3.addMouseListener(new MouseAdapter() {</span>
+            @Override
+            public void mouseClicked(MouseEvent e) {
+<span class="nc" id="L32">                super.mouseClicked(e);</span>
+                
+<span class="nc" id="L34">            }</span>
+        });
+<span class="nc" id="L36">    }</span>
 
     public static void main(String[] args) {
-<span class="nc" id="L33">        JFrame frame = new JFrame(&quot;Calculatrice&quot;);</span>
-<span class="nc" id="L34">        frame.setContentPane(new Calculatrice().panel1);</span>
-<span class="nc" id="L35">        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);</span>
-<span class="nc" id="L36">        frame.pack();</span>
-<span class="nc" id="L37">        frame.setVisible(true);</span>
-<span class="nc" id="L38">    }</span>
+<span class="nc" id="L39">        JFrame frame = new JFrame(&quot;Calculatrice&quot;);</span>
+<span class="nc" id="L40">        frame.setContentPane(new Calculatrice().panel1);</span>
+<span class="nc" id="L41">        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);</span>
+<span class="nc" id="L42">        frame.pack();</span>
+<span class="nc" id="L43">        frame.setVisible(true);</span>
+<span class="nc" id="L44">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span></div></body></html>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="3.0.1" sequence="0" timestamp="1554382870149" analysisTimestamp="1554382870174" release="">
+<BugCollection version="3.0.1" sequence="0" timestamp="1554383646244" analysisTimestamp="1554383646265" release="">
   <Project projectName="">
     <Jar>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\build\classes\java\main\Addition.class</Jar>
     <Jar>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\build\classes\java\main\Calculatrice$1.class</Jar>
     <Jar>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\build\classes\java\main\Calculatrice$2.class</Jar>
+    <Jar>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\build\classes\java\main\Calculatrice$3.class</Jar>
     <Jar>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\build\classes\java\main\Calculatrice.class</Jar>
     <Jar>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\build\classes\java\main\Division.class</Jar>
     <Jar>C:\Users\Benjamin\Documents\IMIE_INTRG\Calculette\build\classes\java\main\Multiplication.class</Jar>
@@ -28,31 +29,55 @@
   </BugInstance>
   <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" rank="8" abbrev="NP" category="CORRECTNESS">
     <Class classname="Calculatrice">
-      <SourceLine classname="Calculatrice" start="17" end="38" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+      <SourceLine classname="Calculatrice" start="16" end="44" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
     </Class>
     <Method classname="Calculatrice" name="&lt;init&gt;" signature="()V" isStatic="false">
-      <SourceLine classname="Calculatrice" start="17" end="30" startBytecode="0" endBytecode="88" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+      <SourceLine classname="Calculatrice" start="16" end="36" startBytecode="0" endBytecode="107" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
     </Method>
     <Field classname="Calculatrice" name="button1" signature="Ljavax/swing/JButton;" isStatic="false">
       <SourceLine classname="Calculatrice" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
     </Field>
-    <SourceLine classname="Calculatrice" start="18" end="18" startBytecode="16" endBytecode="16" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+    <SourceLine classname="Calculatrice" start="17" end="17" startBytecode="16" endBytecode="16" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" rank="8" abbrev="NP" category="CORRECTNESS">
+    <Class classname="Calculatrice">
+      <SourceLine classname="Calculatrice" start="16" end="44" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+    </Class>
+    <Method classname="Calculatrice" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="Calculatrice" start="16" end="36" startBytecode="0" endBytecode="107" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+    </Method>
+    <Field classname="Calculatrice" name="button3" signature="Ljavax/swing/JButton;" isStatic="false">
+      <SourceLine classname="Calculatrice" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+    </Field>
+    <SourceLine classname="Calculatrice" start="29" end="29" startBytecode="46" endBytecode="46" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
   </BugInstance>
   <BugInstance type="UR_UNINIT_READ" priority="2" rank="3" abbrev="UR" category="CORRECTNESS">
     <Class classname="Calculatrice">
-      <SourceLine classname="Calculatrice" start="17" end="38" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+      <SourceLine classname="Calculatrice" start="16" end="44" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
     </Class>
     <Method classname="Calculatrice" name="&lt;init&gt;" signature="()V" isStatic="false">
-      <SourceLine classname="Calculatrice" start="17" end="30" startBytecode="0" endBytecode="88" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+      <SourceLine classname="Calculatrice" start="16" end="36" startBytecode="0" endBytecode="107" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
     </Method>
     <Field classname="Calculatrice" name="button1" signature="Ljavax/swing/JButton;" isStatic="false">
       <SourceLine classname="Calculatrice" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
     </Field>
-    <SourceLine classname="Calculatrice" start="18" end="18" startBytecode="5" endBytecode="5" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+    <SourceLine classname="Calculatrice" start="17" end="17" startBytecode="5" endBytecode="5" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+  </BugInstance>
+  <BugInstance type="UR_UNINIT_READ" priority="2" rank="3" abbrev="UR" category="CORRECTNESS">
+    <Class classname="Calculatrice">
+      <SourceLine classname="Calculatrice" start="16" end="44" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+    </Class>
+    <Method classname="Calculatrice" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="Calculatrice" start="16" end="36" startBytecode="0" endBytecode="107" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+    </Method>
+    <Field classname="Calculatrice" name="button3" signature="Ljavax/swing/JButton;" isStatic="false">
+      <SourceLine classname="Calculatrice" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+    </Field>
+    <SourceLine classname="Calculatrice" start="29" end="29" startBytecode="35" endBytecode="35" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
   </BugInstance>
   <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE">
     <Class classname="Calculatrice">
-      <SourceLine classname="Calculatrice" start="17" end="38" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+      <SourceLine classname="Calculatrice" start="16" end="44" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
     </Class>
     <Field classname="Calculatrice" name="button2" signature="Ljavax/swing/JButton;" isStatic="false">
       <SourceLine classname="Calculatrice" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
@@ -60,15 +85,7 @@
   </BugInstance>
   <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE">
     <Class classname="Calculatrice">
-      <SourceLine classname="Calculatrice" start="17" end="38" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
-    </Class>
-    <Field classname="Calculatrice" name="button3" signature="Ljavax/swing/JButton;" isStatic="false">
-      <SourceLine classname="Calculatrice" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
-    </Field>
-  </BugInstance>
-  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE">
-    <Class classname="Calculatrice">
-      <SourceLine classname="Calculatrice" start="17" end="38" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+      <SourceLine classname="Calculatrice" start="16" end="44" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
     </Class>
     <Field classname="Calculatrice" name="textField1" signature="Ljavax/swing/JTextField;" isStatic="false">
       <SourceLine classname="Calculatrice" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
@@ -76,7 +93,7 @@
   </BugInstance>
   <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE">
     <Class classname="Calculatrice">
-      <SourceLine classname="Calculatrice" start="17" end="38" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+      <SourceLine classname="Calculatrice" start="16" end="44" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
     </Class>
     <Field classname="Calculatrice" name="textField2" signature="Ljavax/swing/JTextField;" isStatic="false">
       <SourceLine classname="Calculatrice" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
@@ -84,15 +101,7 @@
   </BugInstance>
   <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE">
     <Class classname="Calculatrice">
-      <SourceLine classname="Calculatrice" start="17" end="38" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
-    </Class>
-    <Field classname="Calculatrice" name="textField3" signature="Ljavax/swing/JTextField;" isStatic="false">
-      <SourceLine classname="Calculatrice" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
-    </Field>
-  </BugInstance>
-  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE">
-    <Class classname="Calculatrice">
-      <SourceLine classname="Calculatrice" start="17" end="38" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+      <SourceLine classname="Calculatrice" start="16" end="44" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
     </Class>
     <Field classname="Calculatrice" name="textField4" signature="Ljavax/swing/JTextField;" isStatic="false">
       <SourceLine classname="Calculatrice" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
@@ -100,21 +109,30 @@
   </BugInstance>
   <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS">
     <Class classname="Calculatrice">
-      <SourceLine classname="Calculatrice" start="17" end="38" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+      <SourceLine classname="Calculatrice" start="16" end="44" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
     </Class>
     <Field classname="Calculatrice" name="button1" signature="Ljavax/swing/JButton;" isStatic="false">
       <SourceLine classname="Calculatrice" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
     </Field>
-    <SourceLine classname="Calculatrice" start="18" end="18" startBytecode="5" endBytecode="5" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+    <SourceLine classname="Calculatrice" start="17" end="17" startBytecode="5" endBytecode="5" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
   </BugInstance>
   <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS">
     <Class classname="Calculatrice">
-      <SourceLine classname="Calculatrice" start="17" end="38" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+      <SourceLine classname="Calculatrice" start="16" end="44" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+    </Class>
+    <Field classname="Calculatrice" name="button3" signature="Ljavax/swing/JButton;" isStatic="false">
+      <SourceLine classname="Calculatrice" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+    </Field>
+    <SourceLine classname="Calculatrice" start="29" end="29" startBytecode="35" endBytecode="35" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS">
+    <Class classname="Calculatrice">
+      <SourceLine classname="Calculatrice" start="16" end="44" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
     </Class>
     <Field classname="Calculatrice" name="panel1" signature="Ljavax/swing/JPanel;" isStatic="false">
       <SourceLine classname="Calculatrice" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
     </Field>
-    <SourceLine classname="Calculatrice" start="34" end="34" startBytecode="18" endBytecode="18" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
+    <SourceLine classname="Calculatrice" start="40" end="40" startBytecode="18" endBytecode="18" sourcefile="Calculatrice.java" sourcepath="Calculatrice.java"/>
   </BugInstance>
   <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
     <Class classname="Multiplication">
@@ -125,33 +143,35 @@
     </Method>
   </BugInstance>
   <Errors errors="0" missingClasses="0"></Errors>
-  <FindBugsSummary timestamp="Thu, 4 Apr 2019 15:01:10 +0200" total_classes="8" referenced_classes="54" total_bugs="12" total_size="97" num_packages="1" java_version="1.8.0_201" vm_version="25.201-b09" cpu_seconds="4.41" clock_seconds="1.00" peak_mbytes="151.32" alloc_mbytes="3620.00" gc_seconds="0.01" priority_2="12">
-    <PackageStats package="" total_bugs="12" total_types="8" total_size="97" priority_2="12">
+  <FindBugsSummary timestamp="Thu, 4 Apr 2019 15:14:06 +0200" total_classes="9" referenced_classes="55" total_bugs="13" total_size="104" num_packages="1" java_version="1.8.0_201" vm_version="25.201-b09" cpu_seconds="4.28" clock_seconds="0.97" peak_mbytes="148.84" alloc_mbytes="3620.00" gc_seconds="0.01" priority_2="13">
+    <PackageStats package="" total_bugs="13" total_types="9" total_size="104" priority_2="13">
       <ClassStats class="Addition" sourceFile="Addition.java" interface="false" size="18" bugs="1" priority_2="1"/>
-      <ClassStats class="Calculatrice" sourceFile="Calculatrice.java" interface="false" size="21" bugs="10" priority_2="10"/>
+      <ClassStats class="Calculatrice" sourceFile="Calculatrice.java" interface="false" size="21" bugs="11" priority_2="11"/>
       <ClassStats class="Calculatrice$1" sourceFile="Calculatrice.java" interface="false" size="6" bugs="0"/>
       <ClassStats class="Calculatrice$2" sourceFile="Calculatrice.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="Calculatrice$3" sourceFile="Calculatrice.java" interface="false" size="7" bugs="0"/>
       <ClassStats class="Division" sourceFile="Division.java" interface="false" size="10" bugs="0"/>
       <ClassStats class="Multiplication" sourceFile="Multiplication.java" interface="false" size="21" bugs="1" priority_2="1"/>
       <ClassStats class="Soustraction" sourceFile="Soustraction.java" interface="false" size="10" bugs="0"/>
       <ClassStats class="TooBigValueException" sourceFile="TooBigValueException.java" interface="false" size="4" bugs="0"/>
     </PackageStats>
     <FindBugsProfile>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="177" invocations="624" avgMicrosecondsPerInvocation="284" maxMicrosecondsPerInvocation="10621" standardDeviationMircosecondsPerInvocation="715"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="65" invocations="54" avgMicrosecondsPerInvocation="1206" maxMicrosecondsPerInvocation="8717" standardDeviationMircosecondsPerInvocation="2113"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="56" invocations="54" avgMicrosecondsPerInvocation="1053" maxMicrosecondsPerInvocation="13157" standardDeviationMircosecondsPerInvocation="2378"/>
-      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="50" invocations="185" avgMicrosecondsPerInvocation="270" maxMicrosecondsPerInvocation="4186" standardDeviationMircosecondsPerInvocation="500"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="40" invocations="627" avgMicrosecondsPerInvocation="64" maxMicrosecondsPerInvocation="1773" standardDeviationMircosecondsPerInvocation="121"/>
-      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="30" invocations="584" avgMicrosecondsPerInvocation="52" maxMicrosecondsPerInvocation="975" standardDeviationMircosecondsPerInvocation="105"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="30" invocations="23" avgMicrosecondsPerInvocation="1315" maxMicrosecondsPerInvocation="28258" standardDeviationMircosecondsPerInvocation="5744"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="29" invocations="83" avgMicrosecondsPerInvocation="356" maxMicrosecondsPerInvocation="13735" standardDeviationMircosecondsPerInvocation="1530"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="24" invocations="54" avgMicrosecondsPerInvocation="445" maxMicrosecondsPerInvocation="4066" standardDeviationMircosecondsPerInvocation="783"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="16" invocations="54" avgMicrosecondsPerInvocation="296" maxMicrosecondsPerInvocation="4466" standardDeviationMircosecondsPerInvocation="695"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="15" invocations="54" avgMicrosecondsPerInvocation="292" maxMicrosecondsPerInvocation="8040" standardDeviationMircosecondsPerInvocation="1227"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="15" invocations="54" avgMicrosecondsPerInvocation="291" maxMicrosecondsPerInvocation="4432" standardDeviationMircosecondsPerInvocation="732"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="14" invocations="54" avgMicrosecondsPerInvocation="263" maxMicrosecondsPerInvocation="1702" standardDeviationMircosecondsPerInvocation="385"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="13" invocations="23" avgMicrosecondsPerInvocation="578" maxMicrosecondsPerInvocation="8472" standardDeviationMircosecondsPerInvocation="1695"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="13" invocations="54" avgMicrosecondsPerInvocation="245" maxMicrosecondsPerInvocation="1927" standardDeviationMircosecondsPerInvocation="430"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="171" invocations="625" avgMicrosecondsPerInvocation="274" maxMicrosecondsPerInvocation="10219" standardDeviationMircosecondsPerInvocation="752"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="59" invocations="55" avgMicrosecondsPerInvocation="1084" maxMicrosecondsPerInvocation="8648" standardDeviationMircosecondsPerInvocation="1931"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="53" invocations="55" avgMicrosecondsPerInvocation="974" maxMicrosecondsPerInvocation="10251" standardDeviationMircosecondsPerInvocation="1989"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="47" invocations="187" avgMicrosecondsPerInvocation="255" maxMicrosecondsPerInvocation="3365" standardDeviationMircosecondsPerInvocation="473"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="27" invocations="25" avgMicrosecondsPerInvocation="1116" maxMicrosecondsPerInvocation="25659" standardDeviationMircosecondsPerInvocation="5010"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="27" invocations="585" avgMicrosecondsPerInvocation="46" maxMicrosecondsPerInvocation="982" standardDeviationMircosecondsPerInvocation="95"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="26" invocations="628" avgMicrosecondsPerInvocation="41" maxMicrosecondsPerInvocation="610" standardDeviationMircosecondsPerInvocation="35"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="25" invocations="84" avgMicrosecondsPerInvocation="303" maxMicrosecondsPerInvocation="9922" standardDeviationMircosecondsPerInvocation="1120"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="22" invocations="55" avgMicrosecondsPerInvocation="404" maxMicrosecondsPerInvocation="4446" standardDeviationMircosecondsPerInvocation="783"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="16" invocations="25" avgMicrosecondsPerInvocation="641" maxMicrosecondsPerInvocation="9648" standardDeviationMircosecondsPerInvocation="1871"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="15" invocations="55" avgMicrosecondsPerInvocation="275" maxMicrosecondsPerInvocation="4496" standardDeviationMircosecondsPerInvocation="678"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="14" invocations="55" avgMicrosecondsPerInvocation="272" maxMicrosecondsPerInvocation="3234" standardDeviationMircosecondsPerInvocation="632"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="14" invocations="55" avgMicrosecondsPerInvocation="266" maxMicrosecondsPerInvocation="1822" standardDeviationMircosecondsPerInvocation="412"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="14" invocations="25" avgMicrosecondsPerInvocation="573" maxMicrosecondsPerInvocation="9070" standardDeviationMircosecondsPerInvocation="1746"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="13" invocations="25" avgMicrosecondsPerInvocation="554" maxMicrosecondsPerInvocation="8301" standardDeviationMircosecondsPerInvocation="1591"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="12" invocations="55" avgMicrosecondsPerInvocation="235" maxMicrosecondsPerInvocation="6745" standardDeviationMircosecondsPerInvocation="1004"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>
