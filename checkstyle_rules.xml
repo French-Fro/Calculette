@@ -17,6 +17,14 @@
     <property name="eachLine" value="true"/>
   </module>
 
+  <module name = "AnnotationLocation">
+    <property name = "allowSamelineMultipleAnnotations" value = "true"/>
+  </module>
+
+  <module name = "AvoidNestedBlocks">
+    <property name = "allowInSwitchCase"/>
+  </module>
+
   <module name="TreeWalker">
     <module name="OuterTypeFilename"/>
     <module name="IllegalTokenText">
