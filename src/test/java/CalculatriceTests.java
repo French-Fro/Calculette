@@ -10,4 +10,10 @@ public class CalculatriceTests {
         Calculatrice c = new Calculatrice();
         assertThat(c.Addition(1,3), equalTo(1 + 3));
     }
+
+    @Test (expected = NumberFormatException.class)
+    public void testNonValidNumberOnTextFields(){
+        Calculatrice calculatrice = new Calculatrice();
+        calculatrice.Addition(1,Integer.parseInt("a"));
+    }
 }
