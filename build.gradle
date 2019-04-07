@@ -12,8 +12,6 @@ apply plugin : 'pmd'
 apply plugin: 'jacoco'
 apply plugin: 'cpd'
 
-apply plugin : 'pmd'
-
 
 def classesJava = "${project.buildDir}/classes/main"
 def classesBuildJava = "${project.buildDir}/classes/java/main"
@@ -31,6 +29,7 @@ jacoco {
 }
 cpd{toolVersion = "5.4.2"}
 cpdCheck{
+    minimumTokenCount = 150
     reports{
         text.enabled = true
         xml.enabled = false
@@ -78,19 +77,6 @@ task findbugsMain (type: FindBugs, overwrite: true) {
         html.enabled = false
     }
 }
-task findbugsTest (type: FindBugs, overwrite: true) {
-    ignoreFailures = true
-    description 'Run findbugs'
-    classes = fileTree(classesBuildJavaTest)
-    source = fileTree(javasRoot)
-    classpath = files(classesJava)
-    effort = 'max'
-    excludeFilter = file("./findbugsExclude.xml")
-    reports {
-        xml.enabled = true
-        html.enabled = false
-    }
-}
 task pmdMain(type: Pmd, overwrite: true) {
     ignoreFailures = true
     description 'Runs PMD inspection against Android sourcesets.'
@@ -129,4 +115,7 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/com.miglayout/miglayout-swing
+    compile group: 'com.miglayout', name: 'miglayout-swing', version: '5.0'
+
 }

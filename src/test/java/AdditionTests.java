@@ -8,10 +8,10 @@ import static org.junit.Assert.assertThat;
 
 public class AdditionTests {
 
-    private Addition plus = new Addition();
 
     @Test
     public void testAddition5() {
+        Addition plus = new Addition();
         plus.setA(2);
         plus.setB(3);
         assertThat(plus.Addition(), equalTo(plus.getA() + plus.getB()));
@@ -19,6 +19,7 @@ public class AdditionTests {
 
     @Test
     public void testAdditionA0() {
+        Addition plus = new Addition();
         plus.setA(0);
         plus.setB(2);
         assertThat(plus.Addition(), equalTo(plus.getA() + plus.getB()));
@@ -26,6 +27,7 @@ public class AdditionTests {
 
     @Test
     public void testAdditionBNegatifA0() {
+        Addition plus = new Addition();
         plus.setA(0);
         plus.setB(-1);
         assertThat(plus.Addition(), equalTo(plus.getA() + plus.getB()));
@@ -33,6 +35,7 @@ public class AdditionTests {
 
     @Test
     public void testAdditionB0() {
+        Addition plus = new Addition();
         plus.setA(2);
         plus.setB(0);
         assertThat(plus.Addition(), equalTo(plus.getA() + plus.getB()));
@@ -40,6 +43,7 @@ public class AdditionTests {
 
     @Test
     public void testAdditionANegatifB0() {
+        Addition plus = new Addition();
         plus.setA(-1);
         plus.setB(0);
         assertThat(plus.Addition(), equalTo(plus.getA() + plus.getB()));
@@ -47,6 +51,7 @@ public class AdditionTests {
 
     @Test
     public void testANegatifBNegatif() {
+        Addition plus = new Addition();
         plus.setA(-1);
         plus.setB(-1);
         assertThat(plus.Addition(), equalTo(plus.getA() + plus.getB()));
@@ -54,6 +59,7 @@ public class AdditionTests {
 
     @Test
     public void testMaxIntAMaxIntB() {
+        Addition plus = new Addition();
         plus.setA(Integer.MAX_VALUE);
         plus.setB(Integer.MAX_VALUE);
         assertThat(plus.Addition(), equalTo(plus.getA() + plus.getB()));
@@ -61,6 +67,7 @@ public class AdditionTests {
 
     @Test
     public void testMaxIntB0() {
+        Addition plus = new Addition();
         plus.setA(Integer.MAX_VALUE);
         plus.setB(0);
         assertThat(plus.Addition(), equalTo(plus.getA() + plus.getB()));
@@ -68,6 +75,7 @@ public class AdditionTests {
 
     @Test
     public void testANegatifMaxIntB() {
+        Addition plus = new Addition();
         plus.setA(-1);
         plus.setB(Integer.MAX_VALUE);
         assertThat(plus.Addition(), equalTo(plus.getA() + plus.getB()));
@@ -75,6 +83,7 @@ public class AdditionTests {
 
     @Test
     public void testMinIntAMinIntB() {
+        Addition plus = new Addition();
         plus.setA(Integer.MIN_VALUE);
         plus.setB(Integer.MIN_VALUE);
         assertThat(plus.Addition(), equalTo(plus.getA() + plus.getB()));
@@ -82,6 +91,7 @@ public class AdditionTests {
 
     @Test
     public void testMinIntANegativB() {
+        Addition plus = new Addition();
         plus.setA(Integer.MIN_VALUE);
         plus.setB(-1);
         assertThat(plus.Addition(), equalTo(plus.getA() + plus.getB()));
@@ -89,6 +99,7 @@ public class AdditionTests {
 
     @Test
     public void testMinIntAB0() {
+        Addition plus = new Addition();
         plus.setA(Integer.MIN_VALUE);
         plus.setB(0);
         assertThat(plus.Addition(), equalTo(plus.getA() + plus.getB()));
